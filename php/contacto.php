@@ -20,7 +20,7 @@ if(isset($_POST['enviar'])){
 	else if($email == ''){
 		echo "Debe ingresar su email";
 }else{
-	$para = "correo@tudominio.com";//Email al que se enviará
+	$para = "11-11055@usb.ve";//Email al que se enviará
 	$asunto = "Contacto para su sitio web";//Puedes cambiar el asunto del mensaje desde aqui
 	//Este sería el cuerpo del mensaje
 	$mensaje = "
